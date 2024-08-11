@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/7692e5a4-e7b1-490f-b84c-93e630f65cbf)Task 1:
+Task 1:
  1) Create an API  to upload the attached XLSX/CSV data into MongoDB. (Please accomplish this using worker threads)
  2) Search API to find policy info with the help of the username.
  3) API to provide aggregated policy by each user.
