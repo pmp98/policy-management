@@ -1,0 +1,79 @@
+{
+	"info": {
+		"_postman_id": "34685d68-354f-4b5b-b97f-17de3cd2ef26",
+		"name": "policy management",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23963753",
+		"_collection_link": "https://gold-astronaut-236476.postman.co/workspace/csv-to-json~cdef1dc3-f895-4980-851f-90882037982c/collection/23963753-34685d68-354f-4b5b-b97f-17de3cd2ef26?action=share&source=collection_link&creator=23963753"
+	},
+	"item": [
+		{
+			"name": "upoad data",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/User/Downloads/data-sheet - Node js Assesment (1).csv"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/upload",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"upload"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "user-policies",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/user-policies",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"user-policies"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "policy by user name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/policy/Stefanie Moton",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"policy",
+						"Stefanie Moton"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
