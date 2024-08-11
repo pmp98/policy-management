@@ -1,0 +1,25 @@
+agent:Alex Watson
+userType:Active Client
+policy_mode:12
+producer:Brandie Placencia
+policy_number:YEEX9MOIBU7X
+premium_amount_written
+premium_amount:1180.83
+policy_type:Single
+company_name:Integon Gen Ins Corp
+category_name:Commercial Auto
+policy_start_date:02-11-2018	
+policy_end_date:02-11-2019
+csr:Tami Ellison
+account_name:Lura Lucca & Owen Dodson	
+email:madler@yahoo.ca	
+gender:	
+firstname:Lura Lucca	
+city:MOCKSVILLE	
+account_type:Commercial	
+phone:8677356559	
+address:170 MATTHIAS CT	
+state:	NC
+zip:27028	
+dob:11-02-1960
+
